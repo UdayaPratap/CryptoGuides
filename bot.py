@@ -2,7 +2,8 @@ import pandas as pd
 import yfinance as yf
 import joblib
 
-regression_model=joblib.load('BTC-USD_regression_model.joblib')
+regression_model = joblib.load('/home/user/crypto_guides/BTC-USD_regression_model.joblib')
+
 
 ticker = 'BTC-USD' 
 
