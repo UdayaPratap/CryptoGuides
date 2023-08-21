@@ -3,6 +3,7 @@ import yfinance as yf
 import joblib
 import streamlit as st
 import requests
+import io
 
 # Load the regression model from the provided permalink
 url = 'https://github.com/UdayaPratap/CryptoGuides/raw/9a3c865a1664b3df4a4fbbf93a9237132b4343ae/BTC-USD_regression_model.joblib'
